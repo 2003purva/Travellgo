@@ -1,7 +1,7 @@
 import { useState } from "react";
 //import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import "../style/Auth.css";
+import "../style/auth.css";
 import api from "../services/api";
 
 
