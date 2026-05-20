@@ -48,7 +48,7 @@ body {
 ===================== */
 .auth-image {
   flex: 1;
-  background: url("../Login/login.png") center / cover no-repeat;
+  background: url("/Login/login.png") center / cover no-repeat;
   position: relative;
 }
 
@@ -192,7 +192,7 @@ body {
       rgba(5, 8, 20, 0.55),
       rgba(5, 8, 20, 0.75)
     ),
-    url("../assets/bg-beach.jpg") center / cover no-repeat;
+    url("/Login/login.png") center / cover no-repeat;
 }
 
 /* =====================
