@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { CheckCircle, Calendar, Users, MapPin, Bus, Hotel, ArrowRight, ShieldCheck } from 'lucide-react';
-import "../style/BookingSuccess.css";
+import "../style/Bookingsuccess.css";
 
 const BookingSuccess = () => {
   const location = useLocation();
