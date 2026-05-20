@@ -1,5 +1,5 @@
 import { useState } from "react";
-//import React, { useState } from "react";
+
 import { Link, useNavigate } from "react-router-dom";
 import "../style/auth.css";
 import api from "../services/api";
@@ -80,8 +80,8 @@ export default function Register() {
               },
               { name: "phoneNo", icon: "phone", placeholder: "Phone Number" },
               { name: "address", icon: "geo-alt", placeholder: "Address" },
-            ].map((field, i) => (
-              <div className="travel-input" key={i}>
+            ].map((field) => (
+              <div className="travel-input" key={field.name}>
                 <i className={`bi bi-${field.icon}`}></i>
                 <input
                   name={field.name}
