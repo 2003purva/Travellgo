@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { Star, ArrowLeft } from "lucide-react";
-import "../style/writeReview.css";
+import "../style/WriteReview.css";
 
 const WriteReview = () => {
   const navigate = useNavigate();
