@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import "../style/Auth.css"; // Ensure this CSS file exists
+import "../style/auth.css"; // Ensure this CSS file exists
 import api from "../services/api"; // Import the API service
 
 import { useAuth } from "../hooks/useAuth"; // 🟢 Import Hook
